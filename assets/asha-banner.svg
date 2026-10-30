@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">ASHA's Dev Corner</title>
+  <desc id="desc">An original cream and pastel workbench for game development, Unity, XR, and open source. A laptop, a game controller, and a small headset motif sit beside clean typography.</desc>
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="#FFF9F5" stroke="#E6DCD7" stroke-width="2"/>
+  <path d="M25 27H1175" stroke="#F3CED9" stroke-width="6" stroke-linecap="round"/>
+  <text x="58" y="77" fill="#625D66" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="3">ASHA'S DEV CORNER</text>
+  <text x="54" y="151" fill="#393741" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="64">Hi, I'm ASHA.</text>
+  <text x="58" y="197" fill="#625D66" font-family="Segoe UI,Arial,sans-serif" font-size="22">I build games, tools, and things I find interesting.</text>
+  <rect x="58" y="236" width="112" height="35" rx="10" fill="#F3CED9"/>
+  <rect x="180" y="236" width="112" height="35" rx="10" fill="#D6EDE5"/>
+  <rect x="302" y="236" width="80" height="35" rx="10" fill="#D8E8F6"/>
+  <rect x="392" y="236" width="148" height="35" rx="10" fill="#E5DEF3"/>
+  <g fill="#393741" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" text-anchor="middle"><text x="114" y="259">GAME DEV</text><text x="236" y="259">UNITY</text><text x="342" y="259">XR</text><text x="466" y="259">OPEN SOURCE</text></g>
+  <rect x="766" y="61" width="323" height="204" rx="24" fill="#D8E8F6"/>
+  <rect x="803" y="84" width="299" height="182" rx="22" fill="#D6EDE5"/>
+  <rect x="820" y="82" width="234" height="150" rx="14" fill="#FFFFFF" stroke="#B9CFC8" stroke-width="2"/>
+  <path d="M821 112H1053" stroke="#E8E3E0"/>
+  <circle cx="839" cy="98" r="4" fill="#F3CED9"/><circle cx="853" cy="98" r="4" fill="#D6EDE5"/><circle cx="867" cy="98" r="4" fill="#D8E8F6"/>
+  <text x="844" y="156" fill="#393741" font-family="Consolas,monospace" font-size="30" font-weight="600">A/</text>
+  <path d="M844 176H944M844 192H997M844 208H915" stroke="#D8E8F6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M801 232H1073L1089 245Q1093 250 1085 250H789Q781 250 785 245Z" fill="#F3CED9" stroke="#C5AEB6"/>
+  <path d="M998 203Q1001 194 1013 194H1062Q1074 194 1078 205L1086 234Q1088 245 1079 245Q1073 245 1062 231H1016Q1004 245 998 245Q988 245 991 233Z" fill="#FFF9F5" stroke="#79727D" stroke-width="2"/>
+  <path d="M1011 207V223M1003 215H1019" stroke="#625D66" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="1062" cy="211" r="4" fill="#D6EDE5"/><circle cx="1071" cy="220" r="4" fill="#F3CED9"/>
+  <rect x="1090" y="85" width="52" height="31" rx="11" fill="#FFFFFF" stroke="#79727D" stroke-width="2"/>
+  <path d="M1100 96H1107M1125 96H1132M1115 85V78H1131" stroke="#79727D" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#F3CED9"><path d="M736 85h10v10h10v10h-10V95h-10Z"/><rect x="1125" y="248" width="10" height="10"/></g>
+  <g fill="#D6EDE5"><rect x="740" y="228" width="12" height="12"/><rect x="752" y="240" width="8" height="8"/></g>
+  <path d="M1118 159h8v8h8v8h-8v-8h-8Z" fill="#E5DEF3"/>
+</svg>
