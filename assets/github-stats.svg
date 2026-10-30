@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub at a glance — gyomoo0424</title>
+  <desc id="desc">Public profile snapshot on October 30, 2026. One public repository, two followers, two following, zero stars received across public repositories. Private repository activity is excluded.</desc>
+  <rect x="1" y="1" width="998" height="188" rx="20" fill="#1c1728" stroke="#66517e"/>
+  <text x="30" y="35" fill="#ccb2e9" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">GYOMOO0424 / PUBLIC SIGNALS</text>
+  <text x="970" y="35" text-anchor="end" fill="#a995bd" font-family="Consolas,monospace" font-size="11">2026-10-30</text>
+  <path d="M250 63V154M500 63V154M750 63V154" stroke="#51405f"/>
+  <g text-anchor="middle" font-family="Segoe UI,Arial,sans-serif">
+    <g fill="#f0e4ff" font-size="48" font-weight="600"><text x="125" y="119">1</text><text x="375" y="119">2</text><text x="625" y="119">2</text><text x="875" y="119">0</text></g>
+    <g fill="#c4b0d5" font-size="14"><text x="125" y="151">Public repositories</text><text x="375" y="151">Followers</text><text x="625" y="151">Following</text><text x="875" y="151">Public stars received</text></g>
+  </g>
+</svg>
