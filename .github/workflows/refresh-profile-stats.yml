@@ -1,0 +1,136 @@
+name: Refresh lavender profile statistics
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-profile-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lavender-profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'gyomoo0424/gyomoo0424'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Refresh the lavender card from public GitHub data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import base64
+          import json
+          import os
+          import time
+          from datetime import datetime, timedelta, timezone
+          from urllib.error import HTTPError, URLError
+          from urllib.request import Request, urlopen
+
+          OWNER = 'gyomoo0424'
+          REPOSITORY = 'gyomoo0424/gyomoo0424'
+          CARD_PATH = 'assets/github-stats.svg'
+
+          def api(path, payload=None, authenticated=False):
+              headers = {
+                  'Accept': 'application/vnd.github+json',
+                  'X-GitHub-Api-Version': '2026-03-10',
+                  'User-Agent': 'ASHA-Lavender-Profile-Stats',
+              }
+              if authenticated:
+                  headers['Authorization'] = 'Bearer ' + os.environ['GH_TOKEN']
+              body = None if payload is None else json.dumps(payload).encode('utf-8')
+              request = Request('https://api.github.com' + path, data=body,
+                                headers=headers, method='GET' if body is None else 'PUT')
+              for attempt in range(3):
+                  try:
+                      with urlopen(request, timeout=30) as response:
+                          return json.load(response)
+                  except HTTPError as error:
+                      if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                          raise
+                  except (URLError, TimeoutError):
+                      if attempt == 2:
+                          raise
+                  time.sleep(2 ** attempt)
+
+          def nonnegative(value):
+              if type(value) is not int or value < 0:
+                  raise ValueError('GitHub returned an invalid statistics count')
+              return value
+
+          def collect_stats(request):
+              # Public endpoints are deliberately read without an authentication token.
+              user = request('/users/' + OWNER)
+              if user['login'].casefold() != OWNER.casefold():
+                  raise ValueError('Unexpected GitHub profile')
+              stars, page = 0, 1
+              while True:
+                  repos = request(f'/users/{OWNER}/repos?type=owner&per_page=100&page={page}')
+                  if not isinstance(repos, list):
+                      raise ValueError('Expected a public repository list')
+                  for repo in repos:
+                      if repo['private'] is False and repo['owner']['login'].casefold() == OWNER.casefold():
+                          stars += nonnegative(repo['stargazers_count'])
+                  if len(repos) < 100:
+                      break
+                  page += 1
+              return [nonnegative(user['public_repos']), nonnegative(user['followers']),
+                      nonnegative(user['following']), stars]
+
+          def display_count(number):
+              if number >= 1_000_000:
+                  return f'{number / 1_000_000:.1f}M'
+              if number >= 10_000:
+                  return f'{number / 1_000:.1f}k'
+              return f'{number:,}'
+
+          def render_card(stats, updated):
+              repos, followers, following, stars = stats
+              counts = [display_count(number) for number in stats]
+              description = (f'Public GitHub statistics, updated {updated}. '
+                             f'{repos} public repositories, {followers} followers, '
+                             f'{following} following, and {stars} stars received across public repositories. '
+                             'Refreshed automatically every six hours. Private repository activity is excluded.')
+              return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" role="img" aria-labelledby="title desc">
+            <title id="title">GitHub at a glance — gyomoo0424</title>
+            <desc id="desc">{description}</desc>
+            <rect x="1" y="1" width="998" height="188" rx="20" fill="#1c1728" stroke="#66517e"/>
+            <text x="30" y="35" fill="#ccb2e9" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">GYOMOO0424 / PUBLIC SIGNALS</text>
+            <text x="970" y="35" text-anchor="end" fill="#a995bd" font-family="Consolas,monospace" font-size="11">Updated {updated}</text>
+            <path d="M250 63V154M500 63V154M750 63V154" stroke="#51405f"/>
+            <g text-anchor="middle" font-family="Segoe UI,Arial,sans-serif">
+              <g fill="#f0e4ff" font-size="48" font-weight="600"><text x="125" y="119">{counts[0]}</text><text x="375" y="119">{counts[1]}</text><text x="625" y="119">{counts[2]}</text><text x="875" y="119">{counts[3]}</text></g>
+              <g fill="#c4b0d5" font-size="14"><text x="125" y="151">Public repositories</text><text x="375" y="151">Followers</text><text x="625" y="151">Following</text><text x="875" y="151">Public stars received</text></g>
+            </g>
+          </svg>
+          '''
+
+          def main():
+              stats = collect_stats(api)
+              updated = datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%d %H:%M KST')
+              card = render_card(stats, updated)
+              path = f'/repos/{REPOSITORY}/contents/{CARD_PATH}'
+              current = api(path + '?ref=main', authenticated=True)
+              if base64.b64decode(current['content']).decode('utf-8') == card:
+                  print('Statistics card is already up to date.')
+                  return
+              # A failed API request exits before this write, preserving the last valid card.
+              api(path, payload={
+                  'message': 'Refresh public GitHub statistics',
+                  'content': base64.b64encode(card.encode('utf-8')).decode('ascii'),
+                  'sha': current['sha'],
+                  'branch': 'main',
+              }, authenticated=True)
+              print(f'Updated public statistics at {updated}: {stats}')
+
+          if __name__ == '__main__':
+              main()
