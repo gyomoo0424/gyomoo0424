@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="28" viewBox="0 0 1000 28" role="img" aria-labelledby="title">
+  <title id="title">A quiet cream and pastel pixel divider</title>
+  <rect width="1000" height="28" rx="10" fill="#FFF9F5"/>
+  <path d="M20 14H980" stroke="#E6DCD7"/>
+  <rect x="115" y="10" width="8" height="8" fill="#F3CED9"/>
+  <rect x="365" y="10" width="8" height="8" fill="#D6EDE5"/>
+  <rect x="615" y="10" width="8" height="8" fill="#D8E8F6"/>
+  <rect x="865" y="10" width="8" height="8" fill="#E5DEF3"/>
+  <rect x="493" y="8" width="12" height="12" fill="#F3CED9"><animate attributeName="opacity" values=".55;1;.55" dur="6s" repeatCount="indefinite"/></rect>
+</svg>
