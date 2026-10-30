@@ -61,7 +61,7 @@ An idea for presenting Unity scene and prefab changes in a way people can unders
 
 ## GitHub Activity
 
-<img src="./assets/github-stats.svg" width="100%" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card includes its last update time." />
+<img src="./assets/github-stats.svg?theme=pastel" width="100%" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card includes its last update time." />
 
 <p align="center">
   <sub>Updated automatically every 6 hours · Public GitHub data only · Last update shown on the card.</sub><br />
