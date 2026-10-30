@@ -38,11 +38,11 @@ I enjoy turning complicated steps into useful tools, experimenting with gameplay
 ### ✦ GitHub at a glance
 
 <p align="center">
-  <img src="./assets/github-stats.svg" width="100%" alt="Public GitHub snapshot on October 30, 2026: 1 public repository, 2 followers, 2 following, and 0 stars received across public repositories." />
+  <img src="./assets/github-stats.svg" width="100%" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card shows its last update time." />
 </p>
 
 <p align="center">
-  <sub>Public profile snapshot · October 30, 2026 · Private repository activity is excluded.</sub><br />
+  <sub>Automatically refreshed every 6 hours · Public GitHub data only · Last update shown on the card.</sub><br />
   <sub><a href="https://github.com/gyomoo0424">Visit my profile for the current contribution graph and activity.</a></sub>
 </p>
 
