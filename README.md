@@ -1,52 +1,79 @@
 <p align="center">
-  <img src="./assets/asha-header.svg" width="100%" alt="ASHA — Lavender Fox Dev. Small sparks. Thoughtful tools. Playful worlds." />
+  <img src="./assets/asha-banner.svg" width="100%" alt="ASHA's Dev Corner — Game Development, Unity, XR, and Open Source. A cream and pastel developer workbench." />
 </p>
+
+<h1 align="center">Hi, I'm ASHA.</h1>
+<p align="center">
+  <b>Game Developer | Unity | XR | Open Source</b><br />
+  I build games, tools, and things I find interesting.
+</p>
+
+<p align="center"><img src="./assets/pastel-divider.svg" width="100%" alt="A quiet cream, pink, mint, sky blue, and lilac pixel divider" /></p>
+
+## About Me
+
+I'm a Computer Science student in Korea interested in game development, XR, and building useful tools for developers.
+
+I work with Unity, explore automation, and enjoy experimenting with game systems and development workflows. You can find me here as **gyomoo0424**.
+
+## Tech Stack
+
+**Game Development**
+
+<img src="https://skillicons.dev/icons?i=unity,cs,cpp&amp;theme=light" width="144" alt="Unity, C sharp, and C plus plus" />
+
+Unity · C# · C++
+
+**Development Tools**
+
+<img src="https://skillicons.dev/icons?i=python,git,github,visualstudio,vscode&amp;theme=light" width="240" alt="Python, Git, GitHub, Visual Studio, and Visual Studio Code" />
+
+Python · Git · GitHub · Visual Studio · VS Code  
+Desktop tooling: .NET · WPF · PowerShell
+
+**Areas of Interest**
+
+XR · Automation · Game Systems · Developer Tooling
+
+## Featured Projects
+
+### UnityBridgeDesk
+
+**In Development · Private**  
+A desktop tool for Unity development automation and AI-assisted development workflows.
+
+### REDLINE 120
+
+**Game Project · Prototype · Private**  
+A TPS roguelite project built around a 120-second survival timer.
+
+### Unity Scene Diff
+
+**Concept**  
+An idea for presenting Unity scene and prefab changes in a way people can understand. The scope and implementation are still being explored.
+
+## Current Focus
+
+- Improving Unity development workflows
+- Exploring XR automation
+- Building tools for game developers
+- Experimenting with game systems
+
+## GitHub Activity
+
+<img src="./assets/github-stats.svg" width="100%" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card includes its last update time." />
 
 <p align="center">
-  <b>Unity tools · Game prototypes · Ideas in bloom</b><br />
-  <sub>A small lavender corner of the development universe.</sub>
+  <sub>Updated automatically every 6 hours · Public GitHub data only · Last update shown on the card.</sub><br />
+  <sub><a href="https://github.com/gyomoo0424">View current contributions and activity</a></sub>
 </p>
 
-<p align="center">
-  <img src="./assets/lavender-sparks.svg" width="100%" alt="A gentle trail of lavender and peach starlight" />
-</p>
+## Personal Interests
 
-### ✦ A little about me
+**Games** · Action, Roguelite, RPG  
+**Music** · Nujabes, J-Pop, Jazz  
+**Interests** · Anime, Game Development, Developer Tools
 
-Hi, I'm **gyomoo0424**. I build Unity tools and game prototypes, with a soft spot for clear workflows and playful details.
+<p align="center"><img src="./assets/pastel-divider.svg" width="100%" alt="A quiet cream, pink, mint, sky blue, and lilac pixel divider" /></p>
 
-I enjoy turning complicated steps into useful tools, experimenting with gameplay, and giving small ideas room to grow.
-
-### ✦ On my workbench
-
-| Project | What I'm exploring | Stage |
-| :--- | :--- | :--- |
-| **UnityBridgeDesk** | A Windows desktop workspace for UnityBridge setup, AI-assisted tasks, and version benchmarks. | Private · Windows test build |
-| **REDLINE 120** | A Unity gameplay prototype exploring timed arena combat, combos, and risk–reward choices. | Private · Prototype |
-| **Unity Scene Diff** | An idea for making Unity scene changes easier to inspect and compare. Scope and implementation are still being explored. | Concept · Not implemented |
-
-<sub>UnityBridgeDesk and REDLINE 120 are currently private. Unity Scene Diff is still an idea.</sub>
-
-### ✦ Tools I build with
-
-| Focus | Stack |
-| :--- | :--- |
-| Games & prototypes | **Unity · C#** |
-| Desktop tools | **.NET · WPF** |
-| Development workflow | **Git · GitHub · PowerShell** |
-
-### ✦ GitHub at a glance
-
-<p align="center">
-  <img src="./assets/github-stats.svg" width="100%" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card shows its last update time." />
-</p>
-
-<p align="center">
-  <sub>Automatically refreshed every 6 hours · Public GitHub data only · Last update shown on the card.</sub><br />
-  <sub><a href="https://github.com/gyomoo0424">Visit my profile for the current contribution graph and activity.</a></sub>
-</p>
-
-<p align="center">
-  <img src="./assets/lavender-sparks.svg" width="100%" alt="A gentle trail of lavender and peach starlight" /><br />
-  <sub><b>Made of small sparks and steady progress.</b></sub>
-</p>
+<p align="center"><b>Build. Break. Debug. Repeat.</b><br /><sub>Thanks for visiting.</sub></p>
