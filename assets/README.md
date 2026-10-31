@@ -4,8 +4,9 @@ The profile uses original ASHA artwork, self-contained SVG assets, and a single 
 
 | File | Purpose |
 | --- | --- |
-| `asha-banner.svg` | 1200 × 320 cream and pastel banner with the original ASHA developer illustration on the right |
-| `pastel-divider.svg` | Quiet pastel pixel divider |
+| `asha-mark.svg` | Small ASHA portrait used beside the profile introduction |
+| `asha-banner.svg` | Earlier 1200 × 320 cream and pastel banner, retained as an available asset |
+| `pastel-divider.svg` | Earlier pastel pixel divider, retained as an available asset |
 | `github-stats.svg` | Public GitHub statistics, generated every six hours |
 
 ## Palette
@@ -16,10 +17,10 @@ Cream `#FFF9F5` and white `#FFFFFF` cover most of the artwork. Cream pink `#F3CE
 
 ASHA is an original adult female developer mascot in a super-deformed style, with long cream-pink hair, a calm expression, ivory clothing, and mint and sky accents. The finished illustration depicts ASHA sitting with a laptop. A matching portrait has been prepared for the profile avatar.
 
-The banner embeds the illustration directly as a PNG inside the SVG, alongside crisp vector typography. It needs no external image host. The opaque cream background gives a consistent appearance in both GitHub themes. The developer focus and profile details remain ordinary README text for readability on phones.
+The portrait embeds the finished illustration directly as a PNG inside a self-contained SVG. It needs no external image host. The cream background gives a consistent appearance in both GitHub themes. The introduction, timeline, and technology stack use ordinary Markdown for readability on phones.
 
-The README keeps a single introduction in the banner and a short developer focus line below it. The automatically updated statistics card is displayed at a compact width of 420 pixels.
+The README prioritizes the user's introduction, timeline, and technology stack. Projects provide brief supporting context. The automatically updated statistics card is displayed at a compact width of 420 pixels inside a collapsible section.
 
 Use the ASHA design consistently, keep public wording focused on the developer identity, and provide descriptive English alternative text. Add future artwork references only after the corresponding files exist.
 
-Technology icons come from [Skill Icons](https://github.com/tandpfun/skill-icons), using its light theme. All other profile images are stored in this repository.
+The profile uses text labels for technologies. Its images are stored in this repository.
