@@ -1,6 +1,4 @@
-<img align="right" src="./assets/asha-mark.svg" width="104" alt="ASHA" />
-
-# ASHA
+# <img src="./assets/asha-mark.svg" width="48" alt="" /> ASHA
 
 **Aspiring Game Developer**
 
