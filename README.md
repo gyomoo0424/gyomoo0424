@@ -1,11 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/ac0ad889675b7c6472cb8fea67696951c3f054fb/assets/asha-banner.svg" width="100%" alt="ASHA's Dev Corner — an original ASHA developer illustration with a laptop on a cream and multicolor pastel banner." />
+  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/c8361db463fb56192220de195597d6d9af6ee449/assets/asha-banner.svg" width="100%" alt="ASHA's Dev Corner — an original ASHA developer illustration with a laptop on a cream and multicolor pastel banner." />
 </p>
 
-<h1 align="center">Hi, I'm ASHA.</h1>
 <p align="center">
-  <b>Game Developer | Unity | XR | Open Source</b><br />
-  I build games, tools, and things I find interesting.
+  <b>Game Developer | Unity | XR | Open Source</b>
 </p>
 
 <p align="center"><img src="./assets/pastel-divider.svg" width="100%" alt="A quiet cream, pink, mint, sky blue, and lilac pixel divider" /></p>
@@ -61,9 +59,8 @@ An idea for presenting Unity scene and prefab changes in a way people can unders
 
 ## GitHub Activity
 
-<img src="./assets/github-stats.svg?theme=pastel" width="100%" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card includes its last update time." />
-
 <p align="center">
+  <img src="./assets/github-stats.svg?theme=pastel" width="420" alt="Automatically updated public GitHub statistics: public repositories, followers, following, and stars received. The card includes its last update time." /><br />
   <sub>Updated automatically every 6 hours · Public GitHub data only · Last update shown on the card.</sub><br />
   <sub><a href="https://github.com/gyomoo0424">View current contributions and activity</a></sub>
 </p>
