@@ -75,7 +75,7 @@
   <tr>
     <td width="840">
       <h4>Unity Scene Diff</h4>
-      <p><img src="./assets/readme/status-concept.svg" height="22" alt="Concept" /> &nbsp; <sub>An idea for clearer Unity scene and prefab change reviews.</sub></p>
+      <p><img src="./assets/readme/status-concept.svg" height="22" alt="Concept" /> &nbsp; An idea for clearer Unity scene and prefab change reviews.</p>
     </td>
   </tr>
 </table>
