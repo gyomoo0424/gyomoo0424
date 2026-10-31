@@ -15,7 +15,7 @@ Cream `#FFF9F5` and white `#FFFFFF` cover most of the artwork. Cream pink `#F3CE
 
 ## ASHA illustration
 
-ASHA is an original adult female developer mascot in a super-deformed style, with long cream-pink hair, a calm expression, ivory clothing, and mint and sky accents. The finished illustration depicts ASHA sitting with a laptop. A matching portrait has been prepared for the profile avatar.
+ASHA is an original adult female developer mascot in an understated super-deformed style, with cream-pink layered hair, a calm expression, ivory clothing, and mint and sky accents. The new design uses a slim standing silhouette and a small closed laptop. A matching portrait is used beside the profile name and is also available as an avatar image.
 
 The portrait embeds the finished illustration directly as a PNG inside a self-contained SVG. It needs no external image host. The cream background gives a consistent appearance in both GitHub themes. The introduction, timeline, and technology stack use ordinary Markdown for readability on phones.
 
