@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/c8361db463fb56192220de195597d6d9af6ee449/assets/asha-banner.svg" width="100%" alt="ASHA's Dev Corner — an original ASHA developer illustration with a laptop on a cream and multicolor pastel banner." />
+  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/9134800f37548d438b3a8cdd7a337bc5fe911e79/assets/asha-banner.svg" width="100%" alt="ASHA's Dev Corner — an original ASHA developer illustration with a laptop on a cream and multicolor pastel banner." />
 </p>
 
 <p align="center">
