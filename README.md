@@ -54,20 +54,28 @@
 <table>
   <tr>
     <td width="840">
-      <b>UnityBridgeDesk</b> &nbsp; <img src="./assets/readme/status-development.svg" height="22" alt="In development" /><br />
-      A desktop tool for Unity development automation and AI-assisted workflows.
+      <h3>UnityBridgeDesk</h3>
+      <p><img src="./assets/readme/status-development.svg" height="22" alt="In development" /> &nbsp; <sub>UNITY · DEVELOPER TOOLS</sub></p>
+      <p>Desktop tooling for Unity automation and AI-assisted workflows.</p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td>
-      <b>REDLINE 120</b> &nbsp; <img src="./assets/readme/status-development.svg" height="22" alt="In development" /><br />
-      A Unity action roguelite built around a 120-second survival timer.
+    <td width="840">
+      <h3>REDLINE 120</h3>
+      <p><img src="./assets/readme/status-development.svg" height="22" alt="In development" /> &nbsp; <sub>UNITY · ACTION ROGUELITE</sub></p>
+      <p>A Unity action roguelite built around a 120-second survival timer.</p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td>
-      <b>Unity Scene Diff</b> &nbsp; <img src="./assets/readme/status-concept.svg" height="22" alt="Concept" /><br />
-      An idea for making Unity scene and prefab changes easier to review.
+    <td width="840">
+      <h4>Unity Scene Diff</h4>
+      <p><img src="./assets/readme/status-concept.svg" height="22" alt="Concept" /> &nbsp; <sub>An idea for clearer Unity scene and prefab change reviews.</sub></p>
     </td>
   </tr>
 </table>
