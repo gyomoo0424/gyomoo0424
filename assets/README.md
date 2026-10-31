@@ -1,10 +1,10 @@
 # ASHA profile assets
 
-The profile uses original, self-contained SVG artwork and a single automatically refreshed statistics card.
+The profile uses original ASHA artwork, self-contained SVG assets, and a single automatically refreshed statistics card.
 
 | File | Purpose |
 | --- | --- |
-| `asha-banner.svg` | 1200 × 320 typography banner with an original developer workbench |
+| `asha-banner.svg` | 1200 × 320 cream and pastel banner with the original ASHA developer illustration on the right |
 | `pastel-divider.svg` | Quiet pastel pixel divider |
 | `github-stats.svg` | Public GitHub statistics, generated every six hours |
 
@@ -12,12 +12,12 @@ The profile uses original, self-contained SVG artwork and a single automatically
 
 Cream `#FFF9F5` and white `#FFFFFF` cover most of the artwork. Cream pink `#F3CED9`, mint `#D6EDE5`, and sky `#D8E8F6` provide balanced accents. Lilac `#E5DEF3` is used sparingly. Text uses charcoal `#393741`, warm gray `#625D66`, and muted gray `#79727D`.
 
-## Adding an approved ASHA illustration later
+## ASHA illustration
 
-Keep the current banner working until the original illustration is finished. Add the approved artwork as `assets/asha-main.png`, and optionally a consistent small version as `assets/asha-chibi.png`.
+ASHA is an original adult female developer character with flowing cream-pink hair, a gentle expression, ivory clothing, and mint and sky accents. The finished illustration depicts ASHA working on a laptop.
 
-Replace the workbench artwork on the right side of the banner while preserving the text and generous spacing. For the final composed banner, export a 1200 × 320 PNG such as `assets/asha-banner.png` and update the first image reference in the profile README. Use a high-resolution original illustration and keep an opaque cream background for consistent display in both GitHub themes. Keep the title and introduction as ordinary README text so they remain readable on phones.
+The banner embeds the illustration directly as a PNG inside the SVG, alongside crisp vector typography. It needs no external image host. The opaque cream background gives a consistent appearance in both GitHub themes. The title and introduction also remain ordinary README text for readability on phones.
 
-Do not add an image reference before its file exists. Use the approved ASHA design consistently, keep the wording neutral, and give the completed image descriptive English alternative text.
+Use the ASHA design consistently, keep public wording focused on the developer identity, and provide descriptive English alternative text. Add future artwork references only after the corresponding files exist.
 
 Technology icons come from [Skill Icons](https://github.com/tandpfun/skill-icons), using its light theme. All other profile images are stored in this repository.
