@@ -1,4 +1,6 @@
-# <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/ef014af86f2d40fa0e7f5946aa23566e950689d3/assets/asha-mark.svg" width="48" alt="" /> ASHA
+<p>
+  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/e1e852443a72fa8741db5e3f552d19f07a248632/assets/asha-v2-banner.svg" width="1200" alt="ASHA — Game Developer · Unity · XR · Developer Tools." />
+</p>
 
 **Aspiring Game Developer**
 
