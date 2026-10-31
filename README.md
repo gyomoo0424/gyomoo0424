@@ -1,5 +1,5 @@
 <p>
-  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/e1e852443a72fa8741db5e3f552d19f07a248632/assets/asha-v2-banner.svg" width="1200" alt="ASHA — Game Developer · Unity · XR · Developer Tools." />
+  <img src="./assets/github/asha_readme_banner.png" width="1200" alt="ASHA — Game Developer · Unity · XR · Developer Tools." />
 </p>
 
 **Aspiring Game Developer**
@@ -32,3 +32,7 @@
 </p>
 
 </details>
+
+<p align="center">
+  <img src="./assets/decorations/asha_footer.png" width="760" alt="Build. Break. Debug. Repeat." />
+</p>
