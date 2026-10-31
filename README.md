@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/asha-banner.svg?art=asha-v3" width="100%" alt="ASHA's Dev Corner — an original ASHA developer illustration with a laptop on a cream and multicolor pastel banner." />
+  <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/ac0ad889675b7c6472cb8fea67696951c3f054fb/assets/asha-banner.svg" width="100%" alt="ASHA's Dev Corner — an original ASHA developer illustration with a laptop on a cream and multicolor pastel banner." />
 </p>
 
 <h1 align="center">Hi, I'm ASHA.</h1>
