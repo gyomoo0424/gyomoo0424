@@ -14,7 +14,7 @@ Cream `#FFF9F5` and white `#FFFFFF` cover most of the artwork. Cream pink `#F3CE
 
 ## ASHA illustration
 
-ASHA is an original adult female developer character with flowing cream-pink hair, a gentle expression, ivory clothing, and mint and sky accents. The finished illustration depicts ASHA working on a laptop.
+ASHA is an original adult female developer character with long cream-pink hair, a calm and attentive expression, ivory clothing, and mint and sky accents. The finished illustration depicts ASHA working on a laptop.
 
 The banner embeds the illustration directly as a PNG inside the SVG, alongside crisp vector typography. It needs no external image host. The opaque cream background gives a consistent appearance in both GitHub themes. The title and introduction also remain ordinary README text for readability on phones.
 
