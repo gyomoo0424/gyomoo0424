@@ -1,4 +1,4 @@
-# <img src="./assets/asha-mark.svg" width="48" alt="" /> ASHA
+# <img src="https://raw.githubusercontent.com/gyomoo0424/gyomoo0424/ef014af86f2d40fa0e7f5946aa23566e950689d3/assets/asha-mark.svg" width="48" alt="" /> ASHA
 
 **Aspiring Game Developer**
 
