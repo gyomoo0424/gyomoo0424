@@ -4,7 +4,7 @@ Human-form ASHA is the primary developer identity. The profile avatar, README ba
 
 The small supporting mascot is reserved for companion illustrations and the decorative footer. Its anatomy is kept distinct from the human character. The palette, XR equipment and shared symbol connect the two forms.
 
-The profile prioritizes the introduction, timeline and technology stack. Projects stay brief, and public GitHub statistics remain automatically refreshed every six hours inside a collapsible section.
+The profile prioritizes the introduction, timeline and technology stack. Projects use separate cards. Public GitHub statistics follow a six-hour refresh schedule, with direct links to contribution history, public repository updates and refresh status.
 
 ## Current profile assets
 
@@ -20,9 +20,20 @@ The profile prioritizes the introduction, timeline and technology stack. Project
 
 Warm cream `#FFF9F5`, cream pink `#F3CED9`, mint `#D6EDE5`, sky `#D8E8F6`, pale lilac `#E5DEF3`, charcoal `#393741`, warm gray `#625D66` and muted gray `#79727D` form the shared palette. Ivory cloth stays clean, with controlled cel shading and restrained highlights.
 
-Character artwork is supplied as PNG. The two dividers are editable native SVG. The profile banner and footer are PNG layouts with exact English typography. Some delivery images are resampled from their generation sizes.
+Character artwork is supplied as PNG. Dividers and technology/status badges are editable native SVG. The profile banner and footer are PNG layouts with exact English typography. Some delivery images are resampled from their generation sizes. The refined account avatar preserves the approved source pixels and is downsampled from 1254 to 1024 pixels after reframing.
 
-Unity Scene Diff is a concept-stage cover. Project graphics illustrate the intended purpose and are not screenshots of completed products.
+Unity Scene Diff is a concept-stage cover. Project cover graphics are branding illustrations. The README's REDLINE 120 preview is an actual early arena capture from August 2026, presented as work in progress.
+
+## Final refinement assets
+
+| Use | File |
+| --- | --- |
+| Simple section divider | [divider_simple.svg](decorations/divider_simple.svg) |
+| GitHub tool badge | [stack-github.svg](readme/stack-github.svg) |
+| Visual Studio tool badge | [stack-visual-studio.svg](readme/stack-visual-studio.svg) |
+| VS Code tool badge | [stack-vscode.svg](readme/stack-vscode.svg) |
+| Game project status | [status-game.svg](readme/status-game.svg) |
+| Early REDLINE 120 development capture | [redline120-prototype.png](projects/redline120-prototype.png) |
 
 ## Asset inventory
 
